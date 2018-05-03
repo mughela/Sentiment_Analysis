@@ -1,0 +1,63 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.datastacks</groupId>
+  <artifactId>sparktwitter</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+<dependency>
+    <groupId>org.apache.spark</groupId>
+    <artifactId>spark-core_2.11</artifactId>
+    <version>1.4.1</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.spark/spark-sql -->
+<dependency>
+    <groupId>org.apache.spark</groupId>
+    <artifactId>spark-sql_2.11</artifactId>
+    <version>1.4.1</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.spark/spark-streaming -->
+<dependency>
+    <groupId>org.apache.spark</groupId>
+    <artifactId>spark-streaming_2.11</artifactId>
+    <version>1.4.1</version>
+    <scope>provided</scope>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.twitter4j/twitter4j-async -->
+<dependency>
+    <groupId>org.twitter4j</groupId>
+    <artifactId>twitter4j-async</artifactId>
+    <version>3.0.3</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/edu.stanford.nlp/stanford-corenlp -->
+<dependency>
+    <groupId>edu.stanford.nlp</groupId>
+    <artifactId>stanford-corenlp</artifactId>
+    <version>3.4.1</version>
+</dependency>
+<!-- http://repo1.maven.org/maven2/edu/stanford/nlp/stanford-corenlp/3.4.1/ -->
+<dependency>
+    <groupId>edu.stanford.nlp</groupId>
+    <artifactId>stanford-corenlp</artifactId>
+    <version>3.4.1</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.elasticsearch/elasticsearch-spark-13 -->
+<dependency>
+    <groupId>org.elasticsearch</groupId>
+    <artifactId>elasticsearch-spark-13_2.11</artifactId>
+    <version>6.0.0</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.spark/spark-mllib -->
+<dependency>
+    <groupId>org.apache.spark</groupId>
+    <artifactId>spark-mllib_2.11</artifactId>
+    <version>1.4.1</version>
+    <scope>provided</scope>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.apache.spark/spark-streaming-twitter -->
+<dependency>
+    <groupId>org.apache.spark</groupId>
+    <artifactId>spark-streaming-twitter_2.11</artifactId>
+    <version>1.4.1</version>
+</dependency>
+</dependencies>
+</project>
